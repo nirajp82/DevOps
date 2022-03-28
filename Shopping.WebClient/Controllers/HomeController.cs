@@ -11,6 +11,7 @@ namespace Shopping.WebClient.Controllers
     {
         public IActionResult Index()
         {
+            
             return View(ProductContext.GetPreconfiguredProducts());
         }
     }
